@@ -1,8 +1,8 @@
 require "pry"
 
-def reverse_each_word(sentence)
+def reverse_each_word(string)
   binding "pry"
-  sentence1 = sentence.split
-  sentence1.reverse!
-  sentence1.join(" ")
+  array = string.split
+  array.reverse!
+  array.join(" ")
 end
